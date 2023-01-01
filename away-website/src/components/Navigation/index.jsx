@@ -13,11 +13,11 @@ const index = () => {
             {/* right */}
             <div className="flex justify-between items-center">
                 <ul className="flex gap-20 text-2xl text-white">
-                    <li>Discover</li>
-                    <li>Gallery</li>
-                    <li>Reviews</li>
+                    <li className="hover:text-orange cursor-pointer">Discover</li>
+                    <li className="hover:text-orange cursor-pointer">Gallery</li>
+                    <li className="hover:text-orange cursor-pointer">Reviews</li>
                 </ul>
-                <button className="text-white bg-orange rounded-xl p-3 w-36 h-12">LOGIN</button>
+                <button className="text-white text-2xl items-center flex justify-center bg-orange rounded-xl p-3 w-36 h-12 hover:text-orange hover:bg-white hover:border-orange">LOGIN</button>
             </div>
         </div>
     </div>
