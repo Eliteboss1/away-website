@@ -12,7 +12,7 @@ const index = () => {
 
             {/* right */}
             <div className="flex justify-between items-center">
-                <ul className="flex gap-20 text-2xl">
+                <ul className="flex gap-20 text-2xl text-white">
                     <li>Discover</li>
                     <li>Gallery</li>
                     <li>Reviews</li>
