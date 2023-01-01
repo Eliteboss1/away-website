@@ -1,4 +1,5 @@
 import React from 'react'
+import Hero from "../../pages/Home/Hero"
 import { AppLogo } from '../../utils/assets'
 
 const index = () => {
@@ -19,6 +20,10 @@ const index = () => {
                 </ul>
                 <button className="text-white text-2xl items-center flex justify-center bg-orange rounded-xl p-3 w-36 h-12 hover:text-orange hover:bg-white hover:border-orange">LOGIN</button>
             </div>
+        </div>
+        {/* hero section */}
+        <div>
+            <Hero/>
         </div>
     </div>
   )
