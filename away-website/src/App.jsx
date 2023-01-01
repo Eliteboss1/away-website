@@ -1,9 +1,9 @@
 import React from "react";
-import Web from "./web";
+import Navigation from "./components/Navigation";
 export default function App() {
   return (
     <div>
-      <Web />
+      <Navigation/>
     </div>
   );
 }
