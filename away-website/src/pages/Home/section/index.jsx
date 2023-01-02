@@ -102,9 +102,9 @@ const index = () => {
         <div className="relative">
           <img
             src="src/assets/Rectangle 9.jpg"
-            className=" object-cover absoulte rounded-[22px]"
+            className=" object-cover rounded-[22px]"
           />
-          <div className="bottom-[5rem] pl-[23px] ">
+          <div className="bottom-[5rem] pl-[23px] absolute">
             <h1 className="text-[white]   font-[500] leading-[126.8%] text-[24px]">
               North Africa
             </h1>

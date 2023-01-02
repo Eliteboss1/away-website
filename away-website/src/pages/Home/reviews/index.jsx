@@ -69,8 +69,12 @@ const index = () => {
       </div>
       <div>
         <div className="relative">
-          <img src="src/assets/Rectangle 24.png" className="relative" />
-          <img src="src/assets/Rectangle 24.png" className=" relative" />
+          <div>
+            <img src="src/assets/Rectangle 24.png" />
+          </div>
+          <div>
+            <img src="src/assets/Rectangle 24.png" />
+          </div>
         </div>
       </div>
     </div>
