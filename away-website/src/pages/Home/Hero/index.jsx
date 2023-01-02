@@ -1,6 +1,6 @@
 import React from "react";
-import { Right } from "../../../utils/assets";
-import ArrowCircleDownOutlinedIcon from "@mui/icons-material/ArrowCircleDownOutlined";
+import { Arrow, Right } from "../../../utils/assets";
+
 
 const index = () => {
   return (
@@ -14,10 +14,11 @@ const index = () => {
         </button>
       </div>
       <div className="flex items-center jusitify-center">
-        <ArrowCircleDownOutlinedIcon />
+       
       </div>
     </div>
   );
 };
+
 
 export default index;
