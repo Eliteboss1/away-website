@@ -1,4 +1,5 @@
 import React from "react";
+import { GroupedImages } from "../../../utils/assets";
 
 const index = () => {
   return (
@@ -67,37 +68,18 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="pt-[138px] bg-[black]  ">
-        <div className="overflow-hidden z-[100] w-[300px] lg:w-[100%] lg:flex  lg:flex-col lg:justify-center lg:items-center">
-          <div className=" relative">
-            <img src="src/assets/Rectangle 24.png" className="object-cover" />
-          </div>
-          <div className="relative z-[100] bottom-[2rem] right-[7rem] ">
-            <img src="src/assets/Rectangle 27.png" className="object-cover" />
-          </div>
-          <div className="relative bottom-[28rem] left-[20rem] ">
-            <img
-              src="src/assets/Rectangle 25 (1).png"
-              className="object-cover"
-            />
-          </div>
-          <div className="relative z-[200] bottom-[31rem] left-[20rem] ">
-            <img
-              src="src/assets/Rectangle 26 (1).png"
-              className="object-cover"
-            />
-          </div>
-          <div className="relative  bottom-[41rem] right-[5rem] ">
-            <img src="src/assets/Rectangle 30.png" className="object-cover" />
-          </div>
-          <div className="relative bottom-[70rem] text-center  z-[300]">
-            <h1 className="text-[white]  text-[64px] font-[700] leading-[78px]">
-              More than just a<span className="text-[#FFAC4A]">Trip.</span>
-            </h1>
-            <p className="text-[white] w-[50rem] text-[64px]  font-[700] leading-[78px]">
-              Its an Adventure where you take Control
-            </p>
-          </div>
+      <div className="py-36 flex items-center justify-center">
+        <div className=" text-white absolute z-10 sm:text-7xl mb-36 pl-28 font-medium">
+          <p>
+            More than just a <span>Trip</span>
+          </p>
+          <p>
+            It's an Adventure where you
+            <br /> take control
+          </p>
+        </div>
+        <div className="flex items-center justify-center relative">
+          <img src={GroupedImages} alt="" className="" />
         </div>
       </div>
     </div>
