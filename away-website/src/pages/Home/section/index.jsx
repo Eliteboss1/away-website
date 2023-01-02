@@ -145,7 +145,7 @@ const index = () => {
             </button>
           </div>
         </div>
-        <span className="text-[#FFAC4A] text-[24px] font-[500] flex cursor-pointer leading-[126.8%]">
+        <span className="text-[#FFAC4A] pt-[35px] text-[24px] font-[500] flex cursor-pointer leading-[126.8%]">
           View More
           <img
             src="src/assets/bi_arrow-down-right.png"

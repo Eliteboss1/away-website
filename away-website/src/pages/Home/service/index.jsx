@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../service/index.css";
 const index = () => {
   return (
     <div className="bg-[black]  pt-[50px] font-[ubermove]">
@@ -51,7 +51,7 @@ const index = () => {
           </p>
         </div>
       </div>
-      <div className="md:flex pt-[199px]">
+      <div className="md:flex pt-[199px] pr-[33.4px]">
         <div>
           <h1 className="text-[30px] md:text-[45px] lg:text-[64px]   font-[700] leading-[169.8%] text-white">
             Did you know?
@@ -71,8 +71,8 @@ const index = () => {
                 Read More
               </span>
               <img
-                src="src/assets/Vector (2).svg "
-                className="pl-[10px] pt-[5px] object-cover  text-center"
+                src="src/assets/Vector (2).svg  "
+                className="pl-[10px] pt-[5px] object-cover  "
               />
             </button>
           </p>
@@ -85,21 +85,26 @@ const index = () => {
         </h1>
         <div className="px-[72px] ">
           <div>
-            <div className=" grid grid-cols-3">
+            <div className="mako">
               <div>
-                <img src="src/assets/Rectangle 17 (1).png" className="" />
+                <img src="src/assets/Rectangle 17 (1).png" />
               </div>
-              <div className="pl-[24px] ">
-                <img src="src/assets/Rectangle 20.png" className=" pb-[24px]" />
+              <div>
+                <img src="src/assets/Rectangle 20.png" />
+              </div>
+              <div>
                 <img src="src/assets/Rectangle 19.png" />
               </div>
 
               <div>
-                <img src="src/assets/Rectangle 21.png" className="pt-[24px]" />
+                <img src="src/assets/Rectangle 22.png" />
+              </div>
+              <div>
+                <img src="src/assets/Rectangle 21.png" />
               </div>
             </div>
           </div>
-          <span className="text-[#FFAC4A] text-[24px] font-[500] flex cursor-pointer leading-[126.8%]">
+          <span className="text-[#FFAC4A] pt-[42px] text-[24px] font-[500] flex cursor-pointer leading-[126.8%]">
             View More
             <img
               src="src/assets/bi_arrow-down-right.png"
