@@ -1,4 +1,5 @@
 import React from "react";
+import { GroupedImages } from "../../../utils/assets";
 
 const index = () => {
   return (
@@ -67,14 +68,18 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className="relative">
-          <div>
-            <img src="src/assets/Rectangle 24.png" />
-          </div>
-          <div>
-            <img src="src/assets/Rectangle 24.png" />
-          </div>
+      <div className="py-36 flex items-center justify-center">
+        <div className=" text-white absolute z-10 sm:text-7xl mb-36 pl-28 font-medium">
+          <p>
+            More than just a <span>Trip</span>
+          </p>
+          <p>
+            It's an Adventure where you
+            <br /> take control
+          </p>
+        </div>
+        <div className="flex items-center justify-center relative">
+          <img src={GroupedImages} alt="" className=""/>
         </div>
       </div>
     </div>
