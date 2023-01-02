@@ -1,5 +1,6 @@
 import React from "react";
 import { Right } from "../../../utils/assets";
+import ArrowCircleDownOutlinedIcon from '@mui/icons-material/ArrowCircleDownOutlined';
 
 const index = () => {
   return (
@@ -11,6 +12,9 @@ const index = () => {
         <button className="rounded-xl bg-orange text-white p-3 w-80 h-20 text-3xl mt-5 flex justify-center items-center">
           BOOK A TRIP <img src={Right} alt="" className="pl-4"/>
         </button>
+      </div>
+      <div className="flex items-center jusitify-center">
+      <ArrowCircleDownOutlinedIcon/>
       </div>
     </div>
   );
