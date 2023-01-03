@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className="bg-black">
       {/* wrapper */}
-      <div className="flex px-10">
+      <div className="flex px-10 sm:flex-row flex-col">
         {/* left side */}
         <div className="flex-1">
           <img src={AppLogoWhite} alt="" />
@@ -13,9 +13,9 @@ const index = () => {
 
         {/* right side */}
         <div className="flex-[4]">
-          <div className="grid grid-cols-4">
+          <div className="grid sm:grid-cols-4 grid-row gap-5">
             {/* General */}
-            <div className="text-white">
+            <div className="text-white mt-5">
               <p className="font-medium text-lg mb-1">General</p>
               <ul>
                 <li>Discover</li>
@@ -63,7 +63,7 @@ const index = () => {
 
       {/* bottom items */}
 
-      <div className="flex items-center  justify-center">
+      <div className="flex items-center sm:justify-center mt-5">
         <div className="">
           <p className="text-white px-10">
             © 2022 Away Limited. All Rights Reserved.
@@ -71,7 +71,7 @@ const index = () => {
         </div>
       </div>
         {/* Social links */}
-      <div className="flex items-center justify-end mr-14 -mt-5">
+      <div className="flex items-center ml-10  sm:justify-end mr-14 sm:-mt-5 mt-2">
         <div className="flex w-4 h-4 gap-2 -px-20">
           <img src={Facebook} alt="" />
           <img src={Instagram} alt="" />

@@ -7,8 +7,8 @@ const index = () => {
         <div className="-mt-10">
        <img src={Arrow} alt=""/>
        </div>
-        <div className="py-36">
-        <span className="text-white font-medium text-3xl">“From the time you arrive on your Africa adventure<br/> vacation, you are surrounded by the overwhelming sights,<br/> sounds, scents, and colors of Africa"</span>
+        <div className="py-36 sm:px-0 px-10">
+        <span className="text-white font-medium text-2xl sm:text-3xl">“From the time you arrive on your Africa adventure<br/> vacation, you are surrounded by the overwhelming sights,<br/> sounds, scents, and colors of Africa"</span>
        </div>
        
     </div>
