@@ -21,7 +21,7 @@ const index = () => {
           <p className="font-[500] text-[white]  pt-[15.41px] leading-[29px] w-[389px] text-[24px]">
             The entire vacation was fantastic, but the High Atlas landscape and
             the trek were the highlights...
-            <span className=" text-[#FFAC4A]  cursor-pointer  hover:text-[#6b6a6a] hover:decoration-[#6b6a6a] underline decoration-[#FFAC4A] decoration-solid ">
+            <span className=" text-[#FFAC4A] underline decoration-[#FFAC4A] decoration-solid ">
               view more
             </span>
           </p>
@@ -39,7 +39,7 @@ const index = () => {
           <p className="font-[500] text-[white] pt-[15.41px] leading-[29px] w-[389px] text-[24px]">
             Wonderful trip, fantastic guide (Mohamed). The trip was an
             adventure, mule riding...
-            <span className=" text-[#FFAC4A] cursor-pointer hover:text-[#6b6a6a] hover:decoration-[#6b6a6a] underline decoration-[#FFAC4A] decoration-solid ">
+            <span className=" text-[#FFAC4A] underline decoration-[#FFAC4A] decoration-solid ">
               view more
             </span>
           </p>
@@ -57,7 +57,7 @@ const index = () => {
           <p className="font-[500] text-[white] pt-[15.41px] leading-[29px] w-[389px] text-[24px]">
             The Falls were amazing. We even did the helicopter ride aswell. We
             also had afternoon tea at th...
-            <span className=" text-[#FFAC4A] cursor-pointer hover:text-[#6b6a6a] hover:decoration-[#6b6a6a]  underline decoration-[#FFAC4A] decoration-solid ">
+            <span className=" text-[#FFAC4A] underline decoration-[#FFAC4A] decoration-solid ">
               view more
             </span>
           </p>
