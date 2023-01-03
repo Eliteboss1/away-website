@@ -15,7 +15,7 @@ const index = () => {
         <div className="flex-[4]">
           <div className="grid sm:grid-cols-4 grid-row gap-5">
             {/* General */}
-            <div className="text-white mt-5">
+            <div className="text-white sm:mt-0 mt-5">
               <p className="font-bold text-lg mb-1">General</p>
               <ul>
                 <li className="hover:text-orange cursor-pointer">Discover</li>
