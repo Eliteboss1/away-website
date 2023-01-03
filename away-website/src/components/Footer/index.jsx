@@ -16,7 +16,7 @@ const index = () => {
           <div className="grid sm:grid-cols-4 grid-row gap-5">
             {/* General */}
             <div className="text-white mt-5">
-              <p className="font-medium text-lg mb-1">General</p>
+              <p className="font-bold text-lg mb-1">General</p>
               <ul>
                 <li>Discover</li>
                 <li>Morocco</li>
@@ -29,7 +29,7 @@ const index = () => {
 
             {/* Company */}
             <div className="text-white">
-              <p className="font-medium text-lg mb-1">Company</p>
+              <p className="font-bold text-lg mb-1">Company</p>
               <ul>
                 <li>About Us</li>
                 <li>Safety</li>
@@ -39,7 +39,7 @@ const index = () => {
 
             {/* Community */}
             <div className="text-white">
-              <p className="text-medium text-lg mb-1">Community</p>
+              <p className="text-bold text-lg mb-1">Community</p>
               <ul>
                 <li>Staying Safe On & Offline </li>
                 <li>Frequent Questions</li>
@@ -49,7 +49,7 @@ const index = () => {
 
             {/* Legal */}
             <div className="text-white">
-              <p className="text-medium text-lg mb-1">Legal</p>
+              <p className="text-bold text-lg mb-1">Legal</p>
               <ul>
                 <li>Terms & Conditions</li>
                 <li>Booking Terms</li>
