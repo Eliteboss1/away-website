@@ -18,12 +18,12 @@ const index = () => {
             <div className="text-white mt-5">
               <p className="font-bold text-lg mb-1">General</p>
               <ul>
-                <li>Discover</li>
-                <li>Morocco</li>
-                <li>Sahara</li>
-                <li>Ethiopia</li>
-                <li>North Africa</li>
-                <li>Victoria Fails</li>
+                <li className="hover:text-orange cursor-pointer">Discover</li>
+                <li className="hover:text-orange cursor-pointer">Morocco</li>
+                <li className="hover:text-orange cursor-pointer">Sahara</li>
+                <li className="hover:text-orange cursor-pointer">Ethiopia</li>
+                <li className="hover:text-orange cursor-pointer">North Africa</li>
+                <li className="hover:text-orange cursor-pointer">Victoria Fails</li>
               </ul>
             </div>
 
@@ -31,30 +31,30 @@ const index = () => {
             <div className="text-white">
               <p className="font-bold text-lg mb-1">Company</p>
               <ul>
-                <li>About Us</li>
-                <li>Safety</li>
-                <li>Contact</li>
+                <li className="hover:text-orange cursor-pointer">About Us</li>
+                <li className="hover:text-orange cursor-pointer">Safety</li>
+                <li className="hover:text-orange cursor-pointer">Contact</li>
               </ul>
             </div>
 
             {/* Community */}
             <div className="text-white">
-              <p className="text-bold text-lg mb-1">Community</p>
+              <p className="font-bold text-lg mb-1">Community</p>
               <ul>
-                <li>Staying Safe On & Offline </li>
-                <li>Frequent Questions</li>
-                <li>Travel Advice</li>
+                <li className="hover:text-orange cursor-pointer">Staying Safe On & Offline </li>
+                <li className="hover:text-orange cursor-pointer">Frequent Questions</li>
+                <li className="hover:text-orange cursor-pointer">Travel Advice</li>
               </ul>
-            </div>
+            </div> 
 
             {/* Legal */}
             <div className="text-white">
-              <p className="text-bold text-lg mb-1">Legal</p>
+              <p className="font-bold text-lg mb-1">Legal</p>
               <ul>
-                <li>Terms & Conditions</li>
-                <li>Booking Terms</li>
-                <li>Privacy Policy</li>
-                <li>FFI Policy</li>
+                <li className="hover:text-orange cursor-pointer">Terms & Conditions</li>
+                <li className="hover:text-orange cursor-pointer">Booking Terms</li>
+                <li className="hover:text-orange cursor-pointer">Privacy Policy</li>
+                <li className="hover:text-orange cursor-pointer">FFI Policy</li>
               </ul>
             </div>
           </div>
