@@ -7,7 +7,7 @@ import Reviews from "./pages/Home/reviews";
 import Footer from "./components/Footer";
 export default function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navigation />
       <About/>
       <Section />
