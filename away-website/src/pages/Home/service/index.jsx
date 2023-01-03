@@ -55,19 +55,14 @@ const index = () => {
       </div>
       <div className="lg:flex pt-[199px] pr-[33.4px]">
         <div>
-          <h1 className="text-[30px] pl-[20px] lg:pl-0 md:text-[45px] lg:text-[64px]   font-[700] leading-[169.8%] text-white">
+          <h1 className="text-[30px] md:text-[45px] lg:text-[64px] flex items-center justify-center font-[700] leading-[169.8%] text-white">
             Did you know?
           </h1>
           <p className="font-[500] pl-[66px] pr-[28px] leading-[168.8%]   text-[24px] text-white">
             Africa is famous for its animals. Africa has some of the world's
             best wildlife reserves, including the Serengeti, Etosha, Ngorongoro,
             Chobe, and Kruger national parks, and is home to the Big Five (lion,
-            leopard, elephant, buffalo, and rhinoceros). Join one of our Africa
-            wildlife safari excursions to see some, or maybe all, of these
-            renowned species in their native environment. You may also see
-            gorillas and chimps grazing in the lush slopes of Uganda, or immerse
-            yourself in unusual species on Madagascar, dubbed "The Lost
-            Continent."
+            leopard, elephant, buffalo, and rhinoceros).
             <button className=" cursor-pointer mt-[17px] transition duration-500   hover:ease-in-out hover:scale-75 hover:bg-[#61390c] flex justify-center items-center  h-[80px] w-[280px] md:w-[376px] border-[2px] rounded-[10px]  text-[#FFFFFF]">
               <span className="font-[500]  text-[24px] leading-[24px]">
                 Read More
