@@ -29,48 +29,53 @@ const index = () => {
 
             {/* Company */}
             <div className="text-white">
-                <p className="font-medium text-lg mb-1">Company</p>
-                <ul>
-                    <li>About Us</li>
-                    <li>Safety</li>
-                    <li>Contact</li>
-                </ul>
+              <p className="font-medium text-lg mb-1">Company</p>
+              <ul>
+                <li>About Us</li>
+                <li>Safety</li>
+                <li>Contact</li>
+              </ul>
             </div>
 
             {/* Community */}
             <div className="text-white">
-                <p className="text-medium text-lg mb-1">Community</p>
-                <ul>
-                    <li>Staying Safe On & Offline </li>
-                    <li>Frequent Questions</li>
-                    <li>Travel Advice</li>
-                </ul>
+              <p className="text-medium text-lg mb-1">Community</p>
+              <ul>
+                <li>Staying Safe On & Offline </li>
+                <li>Frequent Questions</li>
+                <li>Travel Advice</li>
+              </ul>
             </div>
 
             {/* Legal */}
             <div className="text-white">
-                <p className="text-medium text-lg mb-1">Legal</p>
-                <ul>
-                    <li>Terms & Conditions</li>
-                    <li>Booking Terms</li>
-                    <li>Privacy Policy</li>
-                    <li>FFI Policy</li>
-                </ul>
+              <p className="text-medium text-lg mb-1">Legal</p>
+              <ul>
+                <li>Terms & Conditions</li>
+                <li>Booking Terms</li>
+                <li>Privacy Policy</li>
+                <li>FFI Policy</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      
+
       {/* bottom items */}
 
-      <div className="flex items-center justify-center">
-        <p className="text-white px-10">© 2022 Away Limited. All Rights Reserved.</p>
-
+      <div className="flex items-center  justify-center">
+        <div className="">
+          <p className="text-white px-10">
+            © 2022 Away Limited. All Rights Reserved.
+          </p>
+        </div>
+      </div>
         {/* Social links */}
-        <div className="flex w-4 h-4 gap-2 float-right">
-            <img src={Facebook} alt="" />
-            <img src={Instagram} alt="" />
-            <img src={Twitter} alt="" />
+      <div className="flex items-center justify-end mr-14 -mt-5">
+        <div className="flex w-4 h-4 gap-2 -px-20">
+          <img src={Facebook} alt="" />
+          <img src={Instagram} alt="" />
+          <img src={Twitter} alt="" />
         </div>
       </div>
     </div>
