@@ -5,15 +5,16 @@ import About from "./pages/Home/about";
 import Service from "./pages/Home/service";
 import Reviews from "./pages/Home/reviews";
 import Footer from "./components/Footer";
+
 export default function App() {
   return (
     <div className="overflow-hidden">
       <Navigation />
-      <About/>
+      <About />
       <Section />
       <Service />
       <Reviews />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

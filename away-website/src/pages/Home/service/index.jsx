@@ -1,59 +1,61 @@
 import React from "react";
+import Ride from "./ride";
 import "../service/index.css";
+
 const index = () => {
   return (
     <div className="bg-[black]  pt-[50px] font-[ubermove]">
-      <h1 className=" text-[30px] md:text-[45px] lg:text-[64px]  text-center font-[700] leading-[169.8%] text-white">
+      <h1 className=" text-[27px] md:text-[40px] lg:text-[64px]  text-center font-[700] leading-[169.8%] text-white">
         A Credible Adventure Travel Agency
       </h1>
-      <p className="font-[500] leading-[121.3%] text-center text-[24px] text-white">
+      <p className="font-[500] leading-[121.3%] pt-[10px] px-5 lg:p-0 text-center text-[19px] lg:text-[24px] text-white">
         There's a reason why 98 percent of clients saythey'd book with us again
       </p>
-      <div className=" md:flex text-center pt-[120px] justify-evenly  items-center">
-        <div className="flex flex-col justify-center items-center">
+      <div className=" lg:flex text-center pt-[120px] justify-evenly  items-center">
+        <div className="flex flex-col  items-center">
           <img
             src="src/assets/Group 2 (1).png"
-            className="  h-[111px] pl-[5rem]"
+            className=" h-[90px]  lg:h-[111px] lg:pl-[5rem]"
           />
-          <h1 className="text-[#FFAC4A] font-[700] text-[27px] md:text-[32px] pt-[76px] leading-[121.3%]">
+          <h1 className="text-[#FFAC4A] font-[700] text-[27px] md:text-[30px] lg:text-[32px] pt-[76px] leading-[121.3%]">
             Amazing experences
           </h1>
-          <p className="  text-[24px] leading-[168.8%] text-[white]  font-[500] block ">
+          <p className=" text-[20px] pt-[10px] px-5 lg:p-0  lg:text-[24px] leading-[168.8%] text-[white]  font-[500] block ">
             Our trips, from enormous wows to hidden jewels, will leave you
             feeling like you've actually explored.
           </p>
         </div>
 
-        <div className="flex flex-col  items-center">
+        <div className="flex flex-col pt-[30px] items-center">
           <img
             src="src/assets/Vector (3).svg"
-            className=" h-[111px]   pl-[5rem]"
+            className=" h-[90px] lg:h-[111px]   lg:pl-[5rem]"
           />
           <h1 className="text-[#FFAC4A] font-[700] pt-[76px] text-[32px] leading-[121.3%]">
             Shared experences
           </h1>
-          <p className="text-[24px] leading-[168.8%] text-[white] font-[500] block ">
+          <p className="text-[20px] pt-[10px] px-5 lg:p-0 leading-[168.8%] text-[white] font-[500] block ">
             Find the folks you'll be climbing mountains with. Find companions to
             venture across the forests with.
           </p>
         </div>
-        <div className="flex flex-col  items-center">
+        <div className="flex flex-col pt-[30px] items-center">
           <img
             src="src/assets/Vector (4).svg"
-            className="  h-[111px] pl-[5rem]"
+            className=" h-[90px]  lg:h-[111px] lg:pl-[5rem]"
           />
           <h1 className="text-[#FFAC4A] font-[700] pt-[76px] text-[32px] leading-[121.3%]">
             We do the right thing.
           </h1>
-          <p className="text-[24px] leading-[168.8%] text-[white] font-[500] block ">
+          <p className="text-[20px] pt-[10px] px-5 lg:p-0 leading-[168.8%] text-[white] font-[500] block ">
             Our flexible booking policy, loyalty program, and environmentally
             friendly attitude set us apart
           </p>
         </div>
       </div>
-      <div className="md:flex pt-[199px] pr-[33.4px]">
+      <div className="lg:flex pt-[199px] pr-[33.4px]">
         <div>
-          <h1 className="text-[30px] md:text-[45px] lg:text-[64px]   font-[700] leading-[169.8%] text-white">
+          <h1 className="text-[30px] pl-[20px] lg:pl-0 md:text-[45px] lg:text-[64px]   font-[700] leading-[169.8%] text-white">
             Did you know?
           </h1>
           <p className="font-[500] pl-[66px] pr-[28px] leading-[168.8%]   text-[24px] text-white">
@@ -77,13 +79,19 @@ const index = () => {
             </button>
           </p>
         </div>
-        <img src="src/assets/Rectangle 12.png" className="pt-[30px] md:p-0" />
+        <img
+          src="src/assets/Rectangle 12.png"
+          className=" mt-[20px] pt-[30px] pl-[20px]"
+        />
       </div>
       <div className="pt-[115px]">
         <h1 className="text-[30px] md:text-[45px] lg:text-[64px]  pl-[70px] font-[700] leading-[169.8%] text-white">
           Our Gallery
         </h1>
-        <div className="px-[72px] ">
+        <div className="lg:hidden">
+          <Ride />
+        </div>
+        <div className="px-[72px] hidden lg:block  ">
           <div>
             <div className="mako">
               <div>
