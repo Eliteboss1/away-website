@@ -53,7 +53,7 @@ const index = () => {
           </p>
         </div>
       </div>
-      <div className="lg:flex pt-[199px] pr-[33.4px]">
+      <div className="lg:flex pt-[90px] lg:pt-[199px] pr-[33.4px]">
         <div>
           <h1 className="text-[30px] md:text-[45px] lg:text-[64px] flex items-center justify-center font-[700] leading-[169.8%] text-white">
             Did you know?
