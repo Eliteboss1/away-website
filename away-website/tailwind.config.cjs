@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    
+  ],
   theme: {
     extend: {},
     backgroundImage: {
-      'hero': "url('src/assets/Rectangle 3.svg')",
+      'hero': "url('/src/assets/Rectangle 3.svg')",
     },
     colors: {
       orange: "#FFAC4A",
